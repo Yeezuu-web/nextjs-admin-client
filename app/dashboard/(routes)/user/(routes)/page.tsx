@@ -1,0 +1,14 @@
+import React from 'react'
+import UserClient from '../components/client'
+
+const User = () => {
+  return (
+	<div className='flex-col'>
+		<div className="flex-1 space-y-4 p-8 pt-6">
+			<UserClient />
+		</div>
+	</div>
+  )
+}
+
+export default User
